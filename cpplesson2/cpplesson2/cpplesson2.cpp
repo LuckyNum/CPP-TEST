@@ -4,10 +4,11 @@
 #include "stdafx.h"
 #include "people.h"
 
+using namespace lch;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	lch::people *p=new lch::people();
+	people *p=new people();
 	p->mysay();
 
 	return 0;
