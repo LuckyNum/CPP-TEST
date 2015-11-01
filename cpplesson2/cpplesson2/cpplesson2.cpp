@@ -11,6 +11,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	people *p=new people();
 	p->mysay();
 
+	delete p;
 	return 0;
 }
 
